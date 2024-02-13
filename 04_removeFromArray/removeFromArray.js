@@ -1,6 +1,4 @@
 const removeFromArray = function(array, ...items) {
-
-  
   for (const item of items){
     while (array.indexOf(item) > -1){
       const found = array.indexOf(item);
